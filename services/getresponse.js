@@ -21,14 +21,17 @@ class GetResponse {
     }
 
     /**
-     * Create new contact
-     * @param {object} data Contact object
-     * Docs: https://apireference.getresponse.com/#operation/createContact
+     * GetResponse Endpoint: /contacts
+     * Documentation: https://apireference.getresponse.com/#operation/createContact
      */
     createContact() {
         //TODO: Write your code here
     }
 
+    /**
+     * GetResponse Endpoint: /contacts/{contactId}/tags
+     * Documentation: https://apireference.getresponse.com/#operation/upsertTags
+     */
     updateContact() {
         //TODO: Write your code here
     }
